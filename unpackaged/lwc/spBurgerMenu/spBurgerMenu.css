@@ -1,0 +1,37 @@
+.sp-burger-menu {
+    padding: 4%;
+}
+
+.sp-menu-item-top-parent {
+    text-align: right;
+}   
+
+.sp-menu-wrapper {
+    position: relative;
+    background: orange;
+}
+
+.sp-menu-item-wrapper {
+    position: absolute;
+    width: 100%;
+    min-width: 150px;
+    background: #eaeaea;
+    text-align: center;
+    right: 0px;
+    border: solid #d5d5d5 1px;
+
+}
+
+.sp-menu-item {
+    padding: 5px;
+    
+}
+
+.sp-burger-three-dots {
+    cursor: pointer;
+}
+
+.sp-menu-item:hover {
+    cursor: pointer;
+    background: rgb(189, 189, 189);
+}

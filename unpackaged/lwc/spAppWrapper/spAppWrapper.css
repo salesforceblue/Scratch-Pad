@@ -1,0 +1,28 @@
+.app-wrapper {
+    border: solid #c1c1c1 1px;
+    background: #f3f3f3;
+}
+
+.app-writing-area {
+    /* max-height: 50px;   
+    overflow: scroll; */
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 5px;
+}
+
+.sp-header-wrapper {
+    grid-column: span 5;
+}
+
+.sp-bm-wrapper {
+    grid-column: span 1;
+}
+
+.sp-writing-area-wrapper {
+    grid-column: span 6;
+}

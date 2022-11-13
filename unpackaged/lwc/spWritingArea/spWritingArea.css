@@ -1,0 +1,13 @@
+.sp-writing-ta {
+    display: block;
+    min-height: 250px;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 2%;
+    border: none;
+}
+
+.sp-writing-ta:focus {
+    border: none;
+    outline: none;
+}

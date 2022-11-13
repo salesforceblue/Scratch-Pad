@@ -1,0 +1,17 @@
+<template>
+    <div class = "app-wrapper">
+            <div class="grid">
+                <div class="sp-header-wrapper">
+                    <c-sp-header></c-sp-header>
+                </div>
+
+                <div class="sp-bm-wrapper">
+                    <c-sp-burger-menu onmenuitemclicked={menuItemClickHandler}></c-sp-burger-menu>    
+                </div>
+
+                <div class="sp-writing-area-wrapper" >
+                    <c-sp-writing-area record-id={recordId}></c-sp-writing-area>  
+                </div>
+            </div>
+    </div>
+</template>

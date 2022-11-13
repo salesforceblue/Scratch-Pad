@@ -1,0 +1,11 @@
+<template>
+    <template if:true={isSuccess}>
+        <lightning-icon icon-name="utility:success" alternative-text="Saved" title="Saved" size="xx-small" variant="success"></lightning-icon>
+    </template>
+    <template if:true={isError}>
+        <lightning-icon icon-name="utility:error" alternative-text="Error Occured" title="Error" size="xx-small" variant="error"></lightning-icon>
+    </template>
+    <template if:true={isProcessing}>
+        <lightning-icon icon-name="utility:spinner" alternative-text="Processing" title="Processing" size="xx-small"></lightning-icon>
+    </template>
+</template>

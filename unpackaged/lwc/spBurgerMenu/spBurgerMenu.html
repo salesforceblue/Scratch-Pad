@@ -1,0 +1,24 @@
+<template>
+    <div class="sp-burger-menu">
+        <ul>
+            <li class="sp-menu-item-top-parent" >
+                <!-- @Todo: Update this to a proper icon -->
+                <span class="sp-burger-three-dots" >
+                    <lightning-icon icon-name="utility:threedots" alternative-text="Menu" title="Menu" size="xx-small" onclick={toggleMenu}></lightning-icon>
+                </span>
+            </li>   
+            <template if:true={isMenuVisible}>
+                <li class="sp-menu-wrapper">
+                    <ul class="sp-menu-item-wrapper">
+                        <li class="sp-menu-item" data-action="SAVE_TO_NOTE" onclick={menuItemHandler}>
+                            Save To Notes
+                        </li>
+                        <li class="sp-menu-item" data-action="CLEAR_SCRATCH_PAD" onclick={menuItemHandler}>
+                            Clear Scratch Pad
+                        </li>
+                    </ul>
+                </li>
+            </template>
+        </ul>
+    </div>
+</template>
